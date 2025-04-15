@@ -12,13 +12,14 @@ class Cliente extends Model
     protected $fillable = [
         'nome',
         'endereco',
+        'telefone',
         'cpf',
         'email',
-        'senha'
+        'password'
     ];
 
     protected $hidden = [
-        'senha',
+        'password',
         'remember_token'
     ];
 
