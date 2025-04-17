@@ -7,6 +7,8 @@ use App\Models\Cliente;
 
 class Edit extends Component
 {
+
+    
     public $clienteId;
     public $nome;
     public $endereco;
@@ -18,6 +20,7 @@ class Edit extends Component
     // Carrega os dados do cliente
     public function mount($cliente)
     {
+        
 
         $cliente = Cliente::find($cliente); 
         $this->clienteId = $cliente->id;

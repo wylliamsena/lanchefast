@@ -19,7 +19,7 @@ class ClienteSeeder extends Seeder
             'telefone' => 'Rua Exemplo1, 111',
             'cpf' => 'Rua Exemplo1, 111',
             'email' => 'Rua Exemplo1, 111',
-            'senha' => 'Rua Exemplo1, 111',
+            'password' => 'Rua Exemplo1, 111',
         ]);
 
         Cliente::create([
@@ -28,7 +28,7 @@ class ClienteSeeder extends Seeder
             'telefone' => 'Rua Exemplo2, 222',
             'cpf' => 'Rua Exemplo2, 222',
             'email' => 'Rua Exemplo2, 222',
-            'senha' => 'Rua Exemplo2, 222',
+            'password' => 'Rua Exemplo2, 222',
         ]);
     }
 }
